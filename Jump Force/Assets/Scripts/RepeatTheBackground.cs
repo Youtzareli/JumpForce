@@ -2,18 +2,21 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class MoveLeft : MonoBehaviour
+public class RepeatTheBackground : MonoBehaviour
 {
     // Start is called before the first frame update
+    private Vector3 startPos;
     void Start()
     {
-        
+        startPos = transform.position;
     }
 
     // Update is called once per frame
-    private float speed = 10;
     void Update()
     {
-        transform.Translate(Vector3.left * Time.deltaTime * speed);
+        if (transform.position.x < startPos.x -50)
+        {
+            transform.position = startPos;
+        }
     }
 }

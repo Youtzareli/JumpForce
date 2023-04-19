@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 2923419530418239414}
   - component: {fileID: 2923419530419282164}
   - component: {fileID: -4183216804230522508}
-  - component: {fileID: 7037320512931883504}
+  - component: {fileID: -9191436542393689362}
   - component: {fileID: 634035651621735489}
   - component: {fileID: -4763336100052130918}
   m_Layer: 0
@@ -97,7 +97,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5756c05a062b75f40b91aa907c342613, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &7037320512931883504
+--- !u!114 &-9191436542393689362
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -109,7 +109,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2cd0c843c4170b2488912a270dd21803, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  obstaclePreFab: {fileID: 2923419530421454828}
+  obstaclePreFab: {fileID: 0}
 --- !u!54 &634035651621735489
 Rigidbody:
   m_ObjectHideFlags: 0
